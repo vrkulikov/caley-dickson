@@ -1,5 +1,6 @@
 from complex import Complex
 
-a = Complex(1,2)
+a = Complex(Complex(1,2),Complex(3,4))
+b = Complex(3,4)
 
-print(a)
+print(b*a)
